@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Shantanu Darade</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Shantanu Darade</h1>
+            <h3>And I am a <span class="multiple-text"></span></h3>
+            <p>Experienced coder and web developer.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/shantanu.darade.90?mibextid=ZbWKwL"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.linkedin.com/in/shantanu-darade-312973215"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a download="" href="images/Shantanu Darade.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/My project.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/My project.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer</h3>
+            <p>Hi there! I'm Shantanu Lahanu Darade, a computer engineering student at Mumbai University, set to graduate in 2024. I'm passionate about solving complex problems 
+            and exploring the world of data structures and algorithms. As I work towards my goal of becoming a full-stack developer, I'm constantly learning and expanding my
+            skillset.</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Development</h3>
+                <p>Provide tailored website development services that align with clients' unique objectives and requirements. This encompasses crafting wireframes, mockups, 
+                and prototypes, alongside proficiently coding and ensuring seamless functionality.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint' ></i>
+                <h3>Frontend Design</h3>
+                <p>Offering exceptional front-end web design services, crafting websites that are not only visually captivating but also user-friendly, 
+                tailored precisely to meet clients' specific needs and preferences. My focus is on creating engaging and visually appealing websites.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt' ></i>
+                <h3>Software Development</h3>
+                <p>Offers custom software design and development services, ensuring tailored solutions that meet your unique requirements. 
+                Additionally, I offer software maintenance and bug fixing expertise to ensure smooth and efficient functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/textbin-img.PNG" alt="">
+                <div class="portfolio-layer">
+                    <h4>TextBin</h4>
+                    <p>Online platform that allows users to store and share text-based content.</p>
+                    <a href="https://github.com/ShantanuDarade/Textbin"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/movie_website_img.PNG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Movie Website</h4>
+                    <p>By using TMDB API showcasting movie information, rating, overviews.</p>
+                    <a href="https://github.com/ShantanuDarade/Movie-Website"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/voting-website-img.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Online Voting Website</h4>
+                    <p>An online voting system facilitates secure and efficient voting processes.</p>
+                    <a href="https://github.com/ShantanuDarade/Online-Voting-Website"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="https://formspree.io/f/xwkdvprw" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="Name" autocomplete="off">
+                <input type="email" placeholder="Email Address" name="Email" autocomplete="off">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" name="Mobile" autocomplete="off">
+                <input type="text" placeholder="Email Subject" name="Subject" autocomplete="off">
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message" name="Message" autocomplete="off"></textarea>
+            <input type="submit" value="send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Shantanu | All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
